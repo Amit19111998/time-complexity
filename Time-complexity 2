@@ -11,4 +11,5 @@ int main()
         			printf("%d %d %d\n ", i*3, i*4, i*5);
 	}
 }
-// BIG O{N}
+// complexity is BIG  O{N}
+
