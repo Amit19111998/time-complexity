@@ -9,8 +9,8 @@ int main()
 	for (int x=1; x<max_limit; x++){ // comparison of max limit to  all interger
 	    for (int y=1; y<max_limit; y++){
         	for (int z=1; z<max_limit; z++){
-        		if( x*x + y*y == z*z){ // check the condition
-        			printf("%d*%d + %d*%d = %d*%d\n ", x,x, y,y, z,z);
+        		if( x*x*x+ y*y*y == z*z*z){ // check the condition
+        			printf("%d*%d*%d + %d*%d%d = %d*%d%d\n ", x,x,x,y,y,y, z,z,z);
         			
         		}
         	}
@@ -18,3 +18,4 @@ int main()
 	}
 }
 // time complexity is O[n^3] 
+But the execution time is more as compared to x^2+y^2=z^3
