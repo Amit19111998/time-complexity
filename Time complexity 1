@@ -4,12 +4,12 @@
 
 int main()
 {
-	int max_limit = 100;//sqrt(INT_MAX);// set limit of VERIABLE
-	printf("Value pairs"); // heading
-	for (int x=1; x<max_limit; x++){ // comparison of max limit to  all interger
+	int max_limit = 100;//sqrt(INT_MAX);
+	printf("Value pairs"); 
+	for (int x=1; x<max_limit; x++){ 
 	    for (int y=1; y<max_limit; y++){
         	for (int z=1; z<max_limit; z++){
-        		if( x*x*x+ y*y*y == z*z*z){ // check the condition
+        		if( x*x*x+ y*y*y == z*z*z){
         			printf("%d*%d*%d + %d*%d%d = %d*%d%d\n ", x,x,x,y,y,y, z,z,z);
         			
         		}
