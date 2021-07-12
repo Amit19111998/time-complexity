@@ -1,0 +1,14 @@
+// here I am using Pythagoras triplets concept
+#include <limits.h>
+#include <stdio.h>
+#include<math.h>
+
+int main()
+{
+	int max_limit = 100;//sqrt(INT_MAX);
+	printf("Value pairs");
+	for (int i=1; i<max_limit; i++){
+        			printf("%d %d %d\n ", i*3, i*4, i*5);
+	}
+}
+// BIG O{N}
