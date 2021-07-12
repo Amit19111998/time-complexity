@@ -18,4 +18,4 @@ int main()
 	}
 }
 // time complexity is O[n^3] 
-But the execution time is more as compared to x^2+y^2=z^3
+//But the execution time is more as compared to x^2+y^2=z^3
